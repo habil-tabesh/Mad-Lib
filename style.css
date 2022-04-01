@@ -1,0 +1,57 @@
+body{
+    background-image: url(img/d-rendering-white-symbol-love-emoticon-icon-leaning-color-wall-floor-blurred-reflection-empty-space-168547821.jpg);
+    background-size: cover;
+    
+        
+    align-content: center;
+    text-align: center;
+    
+}
+img{
+    opacity: 0.5;
+}
+ul{
+    
+    margin-top: 100px;
+    box-shadow: (0,0,0,0.19);
+    
+    
+}
+form{
+    position: relative;
+    top: 0px;
+    left: ;
+    right: 60px;
+    
+}
+button{
+    position: relative;
+    background-color: rgb(8, 40, 68);
+    color: aliceblue;
+    left: 15px; 
+    width: 200px;
+    height: 80px;
+    border-radius: 50%;
+    font-size:25px;
+    
+}
+button:hover{
+    
+    opacity: 0.9;
+    border-radius: 50%;
+    scale: -1.1;    
+}
+p{
+    position: absolute;
+    right: 222px;
+    top: 100px;
+    width: 500px;
+    font-size: 24px;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Permanent Marker', cursive;
+    color: yellow;
+}
+p:hover{
+    color: black;
+}
