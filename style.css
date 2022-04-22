@@ -1,34 +1,32 @@
 body{
     background-image: url(img/d-rendering-white-symbol-love-emoticon-icon-leaning-color-wall-floor-blurred-reflection-empty-space-168547821.jpg);
     background-size: cover;
-    
-        
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-content: center;
     text-align: center;
-    
+    width: 100vw;
+    /* height: 100vh; */
+   
 }
 img{
     opacity: 0.5;
 }
 ul{
     
-    margin-top: 100px;
+    
     box-shadow: (0,0,0,0.19);
     
     
 }
 form{
     position: relative;
-    top: -40px;
-    padding-top: -20px;
-    left:550px ;
     color: yellow;
-    width: 40%;
-    font-size: 40px ;
-    
+    font-size: 20px ;
+    grid-column:1/2;
 }
 button{
-    position: relative;
+    position: flex;
     background-color: rgb(8, 40, 68);
     color: aliceblue;
     left: 15px; 
@@ -45,20 +43,22 @@ button:hover{
     border-radius: 50%;
     scale: -1.1;    
 }
-p{
-    position: absolute;
-    right: 22px;
-    top: 80px;
-    width: 500px;
+#answer{
+    
+   margin-top: 25vh;
     font-size: 24px;
     font-family: 'Palette Mosaic', cursive;
     font-family: 'Passions Conflict', cursive;
     font-family: 'Permanent Marker', cursive;
-    color: yellow;
+    color: rgb(0, 0, 0);
+    grid-column: 2/3;
+    padding: 5%;
+    position: flex;
+    text-align: center;
+    justify-content: center;
 }
-p:hover{
-    color: black;
-}
+
+
 #form{
     grid-template-columns: repeat(2, 8fr);
 }
@@ -66,7 +66,7 @@ p:hover{
     grid-area: 1;
     background-color:rgb(8, 6, 69);
     padding: 5%;
-    width: 25%;
+    width: 38%;
     grid-column-start: 1;
     
     
@@ -75,80 +75,81 @@ p:hover{
     background-color:rgb(8, 6, 69);
     grid-area: 2;
     padding: 5%;
-    width: 25%;
+    width: 38%;
     grid-column-start: ;
 }
 #text3{
     grid-area: 3;
     padding: 5%;
-    width: 25%;
+    width: 38%;
     background-color:rgb(8, 6, 69);
 }
 #text4{
     grid-area: 4;
     padding: 5%;
-    width: 25%;
+    width: 38%;
     background-color:rgb(8, 6, 69);
 }
 #text5{
     grid-area: 5;
     padding: 5%;
-    width: 25%;
+    width: 38%;
     background-color:rgb(8, 6, 69);
 }
 #text6{
     grid-area: 6;
     padding: 5%;
-    width: 25%;
+    width: 38%;
     background-color:rgb(8, 6, 69);
 }
 
 #text7{
     grid-area: 7;
     padding: 5%;
-    width: 25%;
+    width: 38%;
     background-color:rgb(8, 6, 69);
 }
 #text8{
     grid-area: 8;
     
     padding: 5%;
-    width: 25%;
+    width: 38%;
     background-color:rgb(8, 6, 69);
 }
 #text9{
     grid-area: 9;
     padding: 5%;
-    width: 25%;
+    width: 38%;
     background-color:rgb(8, 6, 69);
 }
 #text10{
     grid-area: 10;
     padding: 5%;
-    width: 25%;
+    width: 38%;
     background-color:rgb(8, 6, 69);
 }
 #text11{
     grid-area: 11;
     padding: 5%;
-    width: 25%;
+    width: 38%;
     background-color:rgb(8, 6, 69);
 }
 #text12{
     grid-area: 12;
     padding: 5%;
-    width: 25%;
+    width: 38%;
     background-color:rgb(8, 6, 69);
 }
 #text13{
     grid-area: 13;
     padding: 5%;
-    width: 25%;
+    width: 50%;
     background-color:rgb(8, 6, 69);
 }
+
 #button{
     grid-area: 14;
-    width: 25%;
+    
     background-color:rgb(8, 6, 69)
 }
 #hover input:hover{
