@@ -18,7 +18,7 @@ function createParagraph() {
     
 
 
-    var paragraph = " Dear "+ wordOne +", " + "<br>" +"The first time I saw you my heart " + wordTwo + " with joy. We were in " + wordThree + " class and you raised your " + wordFour + " to ask a question. Your voice sounded like " + wordFive+". Then I noticed your "+ wordSix + "  " + wordSeven+". It is so " + wordEight+"! Overall, I " + wordNine + " you. I would tell you who I am but I'm too "+ wordTen +". Just know that the "+ wordEleven +" you reciece on Valentine's Day is from me. I hope you think it's " + wordTwelve+  "<br>" +  "      Love,"  + "<br>" +      "Your " + wordThirteen + " Admirer "
+    var paragraph = " Dear "+ wordOne +", " + "<br>" +"The first time I saw you my heart " + wordTwo + " with joy. We were in " + wordThree + " class and you raised your " + wordFour + " to ask a question. Your voice sounded like " + wordFive+". Then I noticed your "+ wordSix + "  " + wordSeven+". It is so " + wordEight+"! Overall, I " + wordNine + " you. I would tell you who I am but I'm too "+ wordTen +". Just know that the "+ wordEleven +" you reciece on Valentine's Day is from me. I hope you think it's " + wordTwelve+  ".<br>" +  "      Love,"  + "<br>" +      "Your " + wordThirteen + " Admirer "
 
    
 
